@@ -1,0 +1,53 @@
+.nav {
+    padding: 1em;
+    margin: 0 auto;
+    background-color: rgb(0, 52, 84);
+    line-height: 1.5;
+
+}
+
+ul{
+	li{
+		padding: .4em;
+         &:hover{
+			background-color: #fff;
+
+		  a{
+		  	color:#002254 ;
+		  	transition: all .4s;
+		  }
+			
+		}
+
+		a{
+			text-decoration: none;
+			color:#fff;
+
+
+		}
+
+	}
+}
+.button{
+	text-align: right;
+	display: flex;
+     flex-direction: column-reverse;
+     text-decoration: none;
+     padding: .4em;
+     
+
+}
+.top{
+	 background-color:rgb(0, 52, 84);
+}
+
+@media(min-width:720px){
+	.button{
+		display: none;
+	}
+	
+	nav ul{
+		display: flex;
+	}
+
+}

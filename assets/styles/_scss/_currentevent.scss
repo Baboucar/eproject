@@ -1,0 +1,14 @@
+.feature{
+  padding-top: 1.5em;
+}
+
+@media(min-width: 700px){
+	.two-column{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.feature{
+		flex-basis: 48%;
+	}
+}

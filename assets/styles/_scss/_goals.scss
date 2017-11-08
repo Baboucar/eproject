@@ -1,0 +1,37 @@
+.content-title{
+	font-size:1.2em;
+}
+
+a.content-button {
+    color: black;
+    text-decoration: none;
+}
+
+.content-button {
+    padding: .5em 1em;
+    border: 3px solid #B51C35;
+    /* border-radius: 10px; */
+    font-weight: 600;
+}
+
+.reason{
+	 padding-top: 1.5em;
+
+}
+
+@media(min-width: 700px){
+	.three-column{
+		display: flex;
+		justify-content: space-between;
+		
+	}
+
+	.reason{
+		flex-basis:32%;
+	}
+
+	.services:nth-child(odd){
+		background-color: #dd55ff;
+	}
+}
+

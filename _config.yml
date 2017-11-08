@@ -1,0 +1,45 @@
+# Welcome to Suna config file
+
+# Site settings
+title: Ecomansa Website
+email: ecomansa@gmail.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://ecomansa.info"
+
+# Other site wide variables
+
+
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+
+
+# Sass Settings
+sass:
+  sass_dir: assets/styles/_scss
+  style: compressed
+
+
+# Exclude the following from the Jekyll build process.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+
+# Collections
+collections:
+
+# newscollection:
+ # output: true;
+
+
+
+
