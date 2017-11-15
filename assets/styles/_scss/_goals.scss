@@ -2,23 +2,38 @@
 	font-size:1.2em;
 }
 
+.text{
+   padding:1em;	
+}
+
+.modify{
+	margin-top:1.5em;
+}
+
 a.content-button {
     color: black;
     text-decoration: none;
 }
 
 .content-button {
-    padding: .5em 1em;
-    border: 3px solid #B51C35;
+    
+    border: 3px solid  #B51C35;
     /* border-radius: 10px; */
     font-weight: 600;
+    padding:.4em;
 }
 
 .reason{
 	 padding-top: 1.5em;
+	 box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
 
 }
-
+.con-article{
+	width: 70%;
+	margin:0 auto;
+	padding:4em;
+	line-height: 1.5;
+}
 @media(min-width: 700px){
 	.three-column{
 		display: flex;

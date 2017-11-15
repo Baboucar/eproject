@@ -1,0 +1,25 @@
+---
+title: The Blog
+layout: page
+permalink: blog.html
+---
+ <h2>{{page.title}}</h2>
+<div class="container two-column">
+    {% for post in site.posts%}
+<figure class="feature">
+                <a href="#">
+                    <img src="{{post.image}}" />
+                </a>
+                <figcaption class="text">
+                	<h2> {{post.date |  date: "%b %-d, %Y"}}</h2>
+                    <h3 class="content-title">{{post.title}}</h3>
+                    <p>
+                    	{{post.description}}
+                    </p>
+                    <a class="content-button" href="{{post.url}}">Learn More</a>
+                </figcaption>
+  </figure><!-- .feature -->
+
+{%endfor%}
+
+  </div>

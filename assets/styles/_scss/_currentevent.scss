@@ -1,5 +1,6 @@
 .feature{
   padding-top: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
 }
 
 @media(min-width: 700px){
@@ -10,5 +11,7 @@
 
 	.feature{
 		flex-basis: 48%;
+		margin-right: auto;
+
 	}
 }
