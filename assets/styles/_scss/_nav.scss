@@ -12,24 +12,30 @@
 .menu-btn{
 	display: flex;
 	margin-left:  auto;
-	 transition: all .4s;
+	 cursor: pointer;
+
+	 
+
+	
 }
-.tes{
-	  transition: all .4s;
-}
+
  .header{
  		background: #B51C35;
+ 		display:none;
+
+ transition: all .4s;
+ 		
  }
 .nav{
 	
-	transition: .3s;
+  
 	
 
 	li{
 		display: block;
 	   text-align:center;
 	   padding-top:1em;
-
+       color:#fff;
       &:last-child{
     	padding-bottom: 1em;
     }
@@ -49,6 +55,10 @@
 }
 
 @media(min-width: 720px){
+
+	.header{
+		display:block;
+	}
 .full-screen-logo{
 	display: flex;
 	

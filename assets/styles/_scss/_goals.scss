@@ -10,17 +10,17 @@
 	margin-top:1.5em;
 }
 
-a.content-button {
-    color: black;
-    text-decoration: none;
-}
 
 .content-button {
-    
-    border: 3px solid  #B51C35;
-    /* border-radius: 10px; */
+    outline: 3px solid #B51C35;
     font-weight: 600;
     padding:.4em;
+     color: black;
+    text-decoration: none;
+
+
+   
+   
 }
 
 .reason{
