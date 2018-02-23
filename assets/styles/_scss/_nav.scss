@@ -1,5 +1,5 @@
 .top{
-	background: #B51C35;
+	background: #1b0d0f;
 	display: flex;
 	height: 50px;
 	padding: 1.5em;
@@ -14,22 +14,22 @@
 	margin-left:  auto;
 	 cursor: pointer;
 
-	 
 
-	
+
+
 }
 
  .header{
- 		background: #B51C35;
+ 		background: #1b0d0f;
  		display:none;
 
  transition: all .4s;
- 		
+
  }
 .nav{
-	
-  
-	
+
+
+
 
 	li{
 		display: block;
@@ -40,20 +40,29 @@
     	padding-bottom: 1em;
     }
 	}
-   
+
 
 	a{
 		text-decoration: none;
 		color:#fff;
 		font-weight: 700;
-		  
-        
-	
-	
+
+
+
+
 
 	}
 }
 
+ul li ul{
+	display: none;
+
+
+}
+
+ul li:hover ul{
+	display: block;
+}
 @media(min-width: 720px){
 
 	.header{
@@ -61,7 +70,7 @@
 	}
 .full-screen-logo{
 	display: flex;
-	
+
 }
 	.top{
 		display: none;
@@ -71,7 +80,7 @@
 		display: flex;
 		align-items: center;
 		padding: 2em;
-		
+
 	}
 
 	.flex-nav{
@@ -84,5 +93,5 @@
 
 		}
 	}
-	
+
 }

@@ -3,7 +3,7 @@
 }
 
 .text{
-   padding:1em;	
+   padding:1em;
 }
 
 .modify{
@@ -12,15 +12,15 @@
 
 
 .content-button {
-    outline: 3px solid #B51C35;
+    background: #1b0d0f;
     font-weight: 600;
     padding:.4em;
-     color: black;
+     color: #fff;
     text-decoration: none;
 
 
-   
-   
+
+
 }
 
 .reason{
@@ -38,7 +38,7 @@
 	.three-column{
 		display: flex;
 		justify-content: space-between;
-		
+
 	}
 
 	.reason{
@@ -49,4 +49,3 @@
 		background-color: #dd55ff;
 	}
 }
-

@@ -1,42 +1,22 @@
 
         <section class="container  three-column">
 
-    
+            {% for goal in site.goalscollection %}
                 <figure class="reason  modify">
                     <a href="">
-                        <img src="assets/images/mainpromo/welcome02.jpg" />
+                        <img src="{{goal.image}}" />
                     </a>
                     <figcaption class="text">
-                        <h3 class="content-title">What we  DO</h3>
-                        <p>Every room at Moonwalk Manor, whether you are staying in a discount suite or going Apartment Class&reg;, has a panoramic view.</p>
-                      <a class="content-button" href="#">Learn More</a>
+                        <h3 class="content-title">{{goal.title}}</h3>
+                        <p>
+                          {{goal.description}}
+                        </p>
+                      <a class="content-button" href="{{goal.url}}">Learn More</a>
                     </figcaption>
                 </figure><!-- .reason 1 -->
 
+        {%endfor%}
 
-                <figure class="reason  modify">
-                    <a href="">
-                        <img src="assets/images/mainpromo/welcome03.jpg" />
-                    </a>
-                    <figcaption class="text">
-                        <h3 class="content-title">Who We Are</h3>
-                        <p>Every room at Moonwalk Manor, whether you are staying in a discount suite or going Apartment Class&reg;, has a panoramic view.</p>
-                        <a class="content-button" href="#">Learn More</a>
-                    </figcaption>
-                </figure><!-- .reason  2-->
 
-                <figure class="reason modify">
-                    <a href="">
-                        <img src="assets/images/mainpromo/welcome04.jpg" />
-                    </a>
-                    <figcaption class="text">
-                        <h3 class="content-title">Goals</h3>
 
-                       <p>Every room at Moonwalk Manor, whether you are staying in a discount suite or going Apartment Class&reg;, has a panoramic view.</p>
-                        <a class="content-button" href="#">Learn More</a>
-                    </figcaption>
-                </figure><!-- .reason 3 -->
-
-            
-            
         </section><!-- .main-pitch -->

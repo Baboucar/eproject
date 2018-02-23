@@ -4,19 +4,19 @@
  <div class="logo">
       Logo
 
-    
+
 </div>
-     
+
      <div class="menu-btn">
-         
+
          <span  onclick="show('navi')" >Menu</span>
           <span></span>
           <span></span>
-         
-    
+
+
      </div>
-  
- 
+
+
 </div>
 
 <header class="header"   id="navi">
@@ -30,7 +30,12 @@
 
     <ul class="flex-nav">
         <li>
-            <a href="/">About</a>
+
+            <a href="#">Downloads</a>
+            <ul>
+              <li><a  href={{ site.url }}/assets/constitution.pdf >Constitution</a></li>
+              <li><a  href={{ site.url }}/assets/explainatory.pdf >Explanatory Memo</a></li>
+            </ul>
 
         </li>
         <li>
@@ -41,13 +46,13 @@
             <a href="blog.html">Blog</a>
         </li>
         <li>
-            <a href="/">Gallery</a>
+            <a href="gallery.html">Gallery</a>
         </li>
         <li>
             <a href="/">Event</a>
         </li>
         <li>
-            <a href="/">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
         </li>
     </ul>
 </nav>

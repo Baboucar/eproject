@@ -1,6 +1,6 @@
 body{
 	line-height: 1.5;
-	font-family: "Whitney SSm A","Whitney SSm B","Lucida Grande","Lucida Sans",Verdana,Helvetica,Arial,sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 *{
@@ -8,14 +8,14 @@ body{
 }
 
 .two-column{
-	 
+
 
 }
 .container{
 	 width: 80%;
 	 margin: 0 auto;
 	 padding: .7em;
-	 
+
 }
 
 h2{
@@ -23,10 +23,10 @@ h2{
 }
 @media(min-width: 700px){
 	.two-col{
-		   
+
 		column-count: 2;
         padding: 0 1em;
-       font-size: 1.2em; 
+       font-size: 1.2em;
 	}
-	
+
 }

@@ -1,14 +1,21 @@
 .footer-main{
-	background: #B51C35;
+	background: #1b0d0f;
 	color: #fff;
 	text-align: center;
 	height: 70px;
 
-}
 
+}
+ul{
+	 padding: 1em;
+ }
 li{
 	list-style-type: none;
-    display: inline-block;
+		display: inline-block;
+
+		a{
+			text-decoration: none;
+			color: #fff;
+
+		}
 }
-
-
