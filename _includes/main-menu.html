@@ -1,60 +1,63 @@
-
-<div class="top">
-
- <div class="logo">
-      Logo
+<div class="cover" >
+<header class="top" >
 
 
-</div>
+    <div class="logo">
+        <img src="assets/images/smalllogo.png" alt="logo">
 
-     <div class="menu-btn">
+    </div>
 
-         <span  onclick="show('navi')" >Menu</span>
-          <span></span>
-          <span></span>
+    <div class="menu-btn" onclick="show('navi')">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-
-     </div>
-
-
-</div>
-
-<header class="header"   id="navi">
+</header>
 
 
-<nav class="container nav">
+<nav class="container wrapper" id="navi">
 
-   <div class="full-screen-logo">
-   <img src="assets/images/logo.png" alt="">
-   </div>
-
-    <ul class="flex-nav">
-        <li>
-
+    <div class="full-screen-logo">
+        <img src="assets/images/logo.png" alt="">
+    </div>
+    <ul class="menu">
+        <li class="submenu" id="submenu1">
             <a href="#">Downloads</a>
-            <ul>
-              <li><a  href={{ site.url }}/assets/constitution.pdf >Constitution</a></li>
-              <li><a  href={{ site.url }}/assets/explainatory.pdf >Explanatory Memo</a></li>
-            </ul>
+            <ul class="layout">
+                <li>
+                <a href={{ site.url }}/assets/constitution.pdf> Constitution </a>
+                </li>
+                <li>
+                    <a href={{ site.url }}/assets/explainatory.pdf>Explanatory Memo</a>
+                </li>
+                <li>
 
+                </li>
+
+            </ul>
         </li>
+
         <li>
             <a href="/">Home</a>
+
         </li>
 
         <li>
             <a href="blog.html">Blog</a>
+
         </li>
+
         <li>
             <a href="gallery.html">Gallery</a>
+
         </li>
-        <li>
-            <a href="/">Event</a>
-        </li>
+
         <li>
             <a href="contact.html">Contact Us</a>
+
         </li>
+
     </ul>
 </nav>
-
-</header>
+</div>

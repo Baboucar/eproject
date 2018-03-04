@@ -2,7 +2,7 @@
 layout: article
 permalink: aims.html
 title: Our Aims and Objectives
-image: assets/images/mainpromo/4.jpg
+image: assets/images/mainpromo/aims.png
 description: The aims and objectives of the Association
   as provided in this Constitution are to protect and promote the interest of  its members
 ---

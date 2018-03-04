@@ -1,97 +1,152 @@
 .top{
 	background: #1b0d0f;
 	display: flex;
-	height: 50px;
-	padding: 1.5em;
+	padding: .7em;
+
+}
+.cover{
+	background: #1b0d0f;
 }
 
+.wrapper{
+	background:#1b0d0f;
+	display: none;
+	width: 100%;
+
+}
 .full-screen-logo{
 	display: none;
 }
 
 .menu-btn{
-	display: flex;
+
 	margin-left:  auto;
 	 cursor: pointer;
 
+}
 
+.menu-btn span{
+	display: block;
+	 background:#FFF;
+	 width: 30px;
+	 height: 5px;
+	 margin:.2em;
+
+}
+
+
+li{
+	list-style-type: none;
+
+}
+a{
+	text-decoration: none;
+	color: #FFF;
 
 
 }
 
- .header{
- 		background: #1b0d0f;
- 		display:none;
 
- transition: all .4s;
+
+
+
+ .menu>li{
+
+    text-align: center;
+    padding: .7em;
 
  }
-.nav{
 
-
-
-
-	li{
-		display: block;
-	   text-align:center;
-	   padding-top:1em;
-       color:#fff;
-      &:last-child{
-    	padding-bottom: 1em;
-    }
-	}
-
-
-	a{
-		text-decoration: none;
-		color:#fff;
-		font-weight: 700;
-
-
-
-
-
-	}
-}
-
-ul li ul{
+.submenu ul li{
 	display: none;
-
-
+   background: #1b0d0f;
 }
 
-ul li:hover ul{
+.menu>li:hover>a{
+
 	display: block;
-}
-@media(min-width: 720px){
+	margin-bottom: 1px;
+	font-size: 21px;
+	background:#1b0d0f;
 
-	.header{
-		display:block;
+}
+
+.submenu:hover ul li{
+	display: block;
+	opacity: 0;
+}
+
+.submenu ul li{
+	background:#1b0d0f;
+	color:#FFF;
+	padding: .5em;
+
+
+
+}
+.submenu:hover ul{
+    perspective: 1000px;
+}
+
+/*### main content start###
+ANIMATION FOR FIRST LIST ITEMS OR FOR SUBMENU1###*/
+
+/* FOR FIRST LIST ITEM*/
+
+#submenu1:hover ul li:nth-child(1){
+	animation-name: menu1;
+	animation-duration: 300ms;
+	animation-delay: 0ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+/* FOR second LIST ITEM*/
+
+ #submenu1:hover ul li:nth-child(2){
+	animation-name: menu1;
+	animation-duration: 300ms;
+	animation-delay: 150ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+
+
+
+@keyframes menu1{
+	0%{
+
+        opacity: 0;
+        transform: rotateX(-90deg) translateY(30px);
 	}
-.full-screen-logo{
-	display: flex;
 
+	60%{
+          transform: rotateX(50deg) translateY(15px);
+	}
+
+	100%{
+		opacity:1;
+         transform: rotateX(0deg) translateY(0px);
+	}
 }
-	.top{
+
+
+@media(min-width: 700px){
+	.menu-btn,.logo{
 		display: none;
 	}
 
-	.nav{
+	.wrapper{
+		display: block;
 		display: flex;
-		align-items: center;
-		padding: 2em;
-
 	}
-
-	.flex-nav{
-		display: flex;
-		margin-left:auto;
-
-		li{
-			padding-right: 1em;
-
-
-		}
+	.full-screen-logo{
+		display: block;
 	}
-
+	.menu{
+		 display: flex;
+		 margin-left: auto;
+	}
 }
