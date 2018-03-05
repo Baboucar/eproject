@@ -6,7 +6,7 @@ image: assets/images/mainpromo/aims.png
 description: The aims and objectives of the Association
   as provided in this Constitution are to protect and promote the interest of  its members
 ---
-<div class="">
+<div class="container">
 	<h3>{{page.title}}</h3>
 	<img src="{{page.image}}" alt="blog">
 

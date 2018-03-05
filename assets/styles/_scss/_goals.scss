@@ -33,12 +33,16 @@
 
 }
 .con-article{
-	width: 70%;
+	
 	margin:0 auto;
-	padding:4em;
+	
 	line-height: 1.5;
 }
 @media(min-width: 700px){
+
+	.con-article{
+		width: 70%;
+	}
 	.three-column{
 		display: flex;
 		justify-content: space-between;

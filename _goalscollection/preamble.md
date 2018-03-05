@@ -6,7 +6,7 @@ image: assets/images/mainpromo/4.jpg
 description: The Association shall endeavor to make strong ties amongst its members and the administration, to achieve its common goal towards national development
 
 ---
-<div class="">
+<div class="container">
 	<h3>{{page.title}}</h3>
 	<img src="{{page.image}}" alt="blog">
 
