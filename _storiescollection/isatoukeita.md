@@ -6,7 +6,7 @@ school: Jounalism
 image: assets/images/mainpromo/keita.png
 description: The economic management and sciences students association is one of the very few associations that I have come in personal contact with something that I will never live to regret.
 ---
-<div class="container shadow">
+<div class="container shadow wow rollIn">
 	<h3>{{page.title}}</h3>
 	<img src="{{page.image}}" alt="keita">
      

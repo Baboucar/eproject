@@ -8,7 +8,7 @@ description: Truth be told, if there is one person to be applauded for the aweso
 
 
 ---
-<div class="container shadow">
+<div class="container shadow wow zoomIn">
 	<h3>{{page.title}}</h3>
 	<img src="{{page.image}}" alt="cherno">
 

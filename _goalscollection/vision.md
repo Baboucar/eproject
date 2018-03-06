@@ -6,7 +6,7 @@ image: assets/images/mainpromo/vision.png
 description: Our vision is to be an organization  that engages students to have a voice ,fulfill their potential and get the most out of their university career.
 ---
 
-<div class="container shadow">
+<div class="container shadow wow slideInUp">
 	<h3>{{page.title}}</h3>
 	<img src="{{page.image}}" alt="blog">
 
