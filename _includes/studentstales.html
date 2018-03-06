@@ -1,22 +1,26 @@
-<h2 class="main-title">Tales from Students</h2>
+<h2 class="main-title">Stories from Students</h2>
       
         <section class=" container stories">
             <!-- slider -->
             <div class="story-slider flexslider">
                 
                 <ul class="slides">
+                {% for story in site.storiescollection %}
                     <li>
                         <figure class="story-wrapper">
-                            <img src="assets/images/mainpromo/s5.jpg" alt="">
+                            <img  src="{{story.image}}" alt="keita">
                             <figcaption class="story">
-                                <h3 class="story-header">Story Title</h3>
-                                <div class="author">Student 1</div>
-                               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptatem nobis architecto, ratione a ut est possimus quis eum? Earum illum quidem alias nobis sapiente eligendi adipisci est et magni.</p>
-                                <a href="#" class="content-button">Get the whole story</a>
+                                <h3 class="story-header">{{story.title}}</h3>
+                                <div class="author">{{story.school}}</div>
+                               <p>
+                                 {{story.description}}
+                               </p>
+                                <a href="{{story.url}}" class="content-button">Get the whole story</a>
                             </figcaption>
                         </figure>
                     </li>
-                    <li>
+                    {% endfor %}
+                <!--     <li>
                         <figure class="story-wrapper">
                             <img src="assets/images/mainpromo/s5.jpg" alt="">
                             <figcaption class="story">
@@ -27,7 +31,7 @@
                             </figcaption>
                         </figure>
                     </li>
-
+   
                     <li>
                         <figure class="story-wrapper">
                             <img src="assets/images/mainpromo/s5.jpg" alt="">
@@ -50,7 +54,7 @@
                                 <a href="#" class="content-button">Get the whole story</a>
                             </figcaption>
                         </figure>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div><!-- .story-slider -->

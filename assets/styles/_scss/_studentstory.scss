@@ -13,7 +13,9 @@ Stories styles vendor code
 .story {
     padding: 1em 2em 2em;
 }
-
+.change-height{
+   height: 600px;
+}
 @media screen and (min-width: 50em) {
     .story-wrapper img {
         width: 60% !important;

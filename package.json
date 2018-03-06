@@ -1,0 +1,19 @@
+{
+  "name": "eproject",
+  "version": "1.0.0",
+  "description": "want to optimize images use gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baboucar/eproject.git"
+  },
+  "author": "baboucarr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baboucar/eproject/issues"
+  },
+  "homepage": "https://github.com/Baboucar/eproject#readme"
+}

@@ -38,6 +38,7 @@ exclude:
 collections:
  goalscollection:
     output: true;
-
+ storiescollection:
+   output: true;
 # newscollection:
  # output: true;
