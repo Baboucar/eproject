@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
 	line-height: 1.5;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -9,11 +12,11 @@ body{
 
 #typed{
 
-
+   
 	 font-size: 3em;
 	 text-align: center;
 	 display: block;
-	 font-family: 'Courgette', cursive;
+	font-family: 'Courgette', cursive;
 }
 
 .typed-cursor{
