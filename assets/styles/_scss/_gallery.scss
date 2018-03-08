@@ -20,7 +20,7 @@ a {
     a {
       img {
         float: left;
-        width: 20%;
+       
         height: auto;
         border: 2px solid #fff;
         -webkit-transition: -webkit-transform .15s ease;
@@ -42,11 +42,11 @@ a {
         }
       }
 
-      &.big {
-        img {
-          width: 40%;
-        }
-      }
+      // &.big {
+      //   img {
+         
+      //   }
+      // }
     }
   }
 }
