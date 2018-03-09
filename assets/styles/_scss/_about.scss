@@ -1,0 +1,48 @@
+
+
+
+
+
+.mission{
+  background-color: #382732;
+  margin-top: -10px;
+  
+}
+
+.box {
+  
+     color: #fff; 
+     display: block;
+     border: 2px solid #FFF;
+      padding: .5em;
+      text-align: center;
+    
+     
+     
+
+}
+
+@media(min-width:720px){
+   .mission{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+         
+
+    
+
+   }
+   .box{
+      margin: 1.5em; 
+   }
+
+}
+
+
+
+
+
+
+
+
+

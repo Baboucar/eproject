@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-	line-height: 1.5;
+
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.7;
 }
 
 *{
@@ -17,6 +18,9 @@ body{
 	 text-align: center;
 	 display: block;
 	font-family: 'Courgette', cursive;
+	background: #1b0d0f;
+	color:#FFF;
+	padding: 1.5em;
 }
 
 .typed-cursor{
