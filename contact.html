@@ -6,6 +6,7 @@ permalink: contact.html
 
 
 <h1 class="center">GET IN TOUCH</h1>
+<div id="map" style="height:600px;width:100%; padding:10px;"></div>
 <div class="main-section">
 
 
@@ -52,3 +53,21 @@ permalink: contact.html
     </form>
  </section>
  </div>
+ <script>
+        function initMap() {
+            var uluru = {
+                lat:  13.4618968,
+                lng: -16.6824871
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoBBR37t_ubIQUM2beE_j1vOD2SS7JyxM&callback=initMap">
+    </script>
