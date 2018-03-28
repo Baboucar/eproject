@@ -1,36 +1,45 @@
  <section class=" container two-column">
             
-            
+             {% for event in site.eventscollection %}
             <figure class="feature modify wow fadeInUp" data-wow-delay="1.2s">
-                <a href="#">
-                    <img  src="assets/images/mainpromo/4.jpg" />
-                </a>
+                
+                    <img   src="{{event.image}}" />
+               
 
                 <figcaption class="text">
-                    <h3 class="content-title">Ecomansa Day </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas recusandae error molestias tempora autem laboriosam tenetur. Quas autem, voluptates fuga labore ea est quis maxime ipsam ratione nam quos.</p>
+                    <h3 class="content-title">{{event.title}} </h3>
+                    <p>{{event.description}}</p>
                   
-                    <a class="content-button" href="#">Learn More</a>
+                    <a class="content-button" href="{{event.url}}">Learn More</a>
 
                 </figcaption>
 
             </figure><!-- .feature -->
-
-            <figure class="feature modify wow fadeInUp" data-wow-delay="1.5s">
+         {% endfor %}
+            <!-- <figure class="feature modify wow fadeInUp" data-wow-delay="1.5s">
 
                 <a href="#">
                      <img  src="assets/images/mainpromo/4.jpg" />
                 </a>
-
+             
                 <figcaption class="text">
                     <h3 class="content-title">Ecomansa Research Trip to Mauritania</h3>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti expedita ullam autem quod possimus dolores maiores facilis assumenda. Voluptatum laboriosam nostrum quidem reiciendis enim vel beatae libero obcaecati fugiat.</p>
+                   <p>
+
+                     On the 19th August, 2017, exactly at 22:00 hours 79 students majority of whom are from the School of Business and Public
+                    Administration of the University of the Gambia; left the shore of the Republic of The Gambia for the Islamic Republic of
+                    Mauritania for a research on the theme “The Role of Aquaculture in Sustainable Development”. According to the Economic and
+                    Management Students’ Association’s (ECOMANSA) constitution, Article 11.1.1 the association shall embark on Academic and Social
+                    Research. Therefore, the 14th Executives of ECOMANSA led by His Excellency Sheikh Hydara chose the Islamic Republic of Mauritania
+                    for this year’s research trip. The research is meant to seek for data that will help in contributing to nation building by
+                    advising policy makers in the fishing sector of The Gambia.
+                   </p>
 
                     <a class="content-button" href="#">Learn More</a>
                     
                 </figcaption>
-
-            </figure><!-- .feature -->
+      
+            </figure> -->
 
         </section><!-- .features centered -->

@@ -40,5 +40,5 @@ collections:
     output: true;
  storiescollection:
    output: true;
-# newscollection:
- # output: true;
+ eventscollection:
+  output: true;
